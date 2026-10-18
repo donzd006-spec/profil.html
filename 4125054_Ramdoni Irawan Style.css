@@ -1,9 +1,7 @@
-/* Wajib: box-sizing di awal file */
 * {
   box-sizing: border-box;
 }
 
-/* ===== BODY ===== */
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -14,7 +12,6 @@ body {
   padding: 20px;
 }
 
-/* ===== HEADER ===== */
 header {
   background-color: #1e3a5f;
   color: #ffffff;
@@ -38,7 +35,6 @@ header p {
   margin: 0;
 }
 
-/* ===== NAV ===== */
 nav {
   background-color: #ffffff;
   border: 1px solid #c9d6e6;
@@ -71,13 +67,11 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* ===== MAIN ===== */
 main {
   max-width: 900px;
   margin: 0 auto;
 }
 
-/* ===== SECTION ===== */
 section {
   background-color: #ffffff;
   padding: 20px 25px;
@@ -105,7 +99,6 @@ li {
   margin-bottom: 6px;
 }
 
-/* ===== CLASS: kartu (kotak info dengan border) ===== */
 .kartu {
   background-color: #fff8ef;
   border: 2px solid #1e3a5f;
@@ -113,7 +106,6 @@ li {
   margin-bottom: 20px;
 }
 
-/* ===== ID: foto profil ===== */
 #foto-profil {
   display: block;
   width: 200px;
@@ -125,7 +117,6 @@ li {
   margin: 20px auto 0 auto;
 }
 
-/* ===== ASIDE ===== */
 aside {
   background-color: #e3eefb;
   border-left: 6px solid #1e3a5f;
@@ -135,7 +126,6 @@ aside {
   border-radius: 6px;
 }
 
-/* ===== FOOTER ===== */
 footer {
   background-color: #1e3a5f;
   color: #ffffff;
@@ -157,7 +147,6 @@ footer a:hover {
   color: #ffffff;
 }
 
-/* ===== CLASS: kalimat penutup (pengganti inline style) ===== */
 .penutup {
   margin-top: 20px;
   font-style: italic;
