@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333333;
+  background-color: #eef2f7;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  background-color: #1e3a5f;
+  color: #ffffff;
+  text-align: center;
+  padding: 35px 20px;
+  margin: 0 auto 20px auto;
+  max-width: 900px;
+  border-radius: 8px;
+}
+
+header h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 40px;
+  margin: 0 0 10px 0;
+}
+
+header p {
+  font-size: 18px;
+  font-style: italic;
+  color: #cfe3ff;
+  margin: 0;
+}
+
+nav {
+  background-color: #ffffff;
+  border: 1px solid #c9d6e6;
+  padding: 10px 20px;
+  margin: 0 auto 20px auto;
+  max-width: 900px;
+  border-radius: 8px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+nav a {
+  color: #1e3a5f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #e67e22;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  background-color: #ffffff;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 26px;
+  color: #1e3a5f;
+  margin-top: 0;
+}
+
+section h2 {
+  border-bottom: 2px solid #e67e22;
+  padding-bottom: 8px;
+}
+
+ul {
+  padding-left: 25px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+.kartu {
+  background-color: #fff8ef;
+  border: 2px solid #1e3a5f;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+}
+
+#foto-profil {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 4px solid #e67e22;
+  border-radius: 50%;
+  padding: 4px;
+  margin: 20px auto 0 auto;
+}
+
+aside {
+  background-color: #e3eefb;
+  border-left: 6px solid #1e3a5f;
+  padding: 20px 25px;
+  margin: 0 auto 20px auto;
+  max-width: 900px;
+  border-radius: 6px;
+}
+
+footer {
+  background-color: #1e3a5f;
+  color: #ffffff;
+  padding: 25px;
+  margin: 0 auto;
+  max-width: 900px;
+  border-radius: 8px;
+}
+
+footer h2 {
+  color: #ffffff;
+}
+
+footer a {
+  color: #ffd29a;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+.penutup {
+  margin-top: 20px;
+  font-style: italic;
+  font-size: 14px;
+  color: #cfe3ff;
+}
